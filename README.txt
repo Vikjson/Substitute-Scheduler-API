@@ -1,3 +1,5 @@
+Author: Viktoria Johansson
+
 To compile and start winstone:
 run script: ./compile_servlet_and_start_winstone.sh
 
@@ -16,4 +18,5 @@ lwp-request "http://localhost:8080/v1?format=xml"
 lwp-request "http://localhost:8080/v1?format=json"
 lwp-request "http://localhost:8080/v1?format=json&substitute_id=4"
 lwp-request "http://localhost:8080/v1?format=xml&day=2018-01-15"
+
 lwp-request "http://localhost:8080/v1?format=xml&substitute_id=1&day=2018-01-15"
