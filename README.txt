@@ -1,7 +1,9 @@
 Author: Viktoria Johansson
 
-To compile and start winstone:
+To start, compile and start winstone:
 run script: ./compile_servlet_and_start_winstone.sh
+
+Open a new terminal
 
 To run tests:
 run script: ./check_g_or_vg.sh
@@ -20,3 +22,4 @@ lwp-request "http://localhost:8080/v1?format=json&substitute_id=4"
 lwp-request "http://localhost:8080/v1?format=xml&day=2018-01-15"
 
 lwp-request "http://localhost:8080/v1?format=xml&substitute_id=1&day=2018-01-15"
+
